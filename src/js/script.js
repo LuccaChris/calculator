@@ -4,6 +4,14 @@ function calculate (type, value){
         if(value === 'c'){
             document.getElementById('result').value = ''
         }
+        if ( value === '+' || value === '-' || value === '*' || value === '/' || value === '.'){
+            document.getElementById('result').value += value
+        }
+        if( value === '='){
+            var camp_value = eval (document.getElementById('result').value)
+            document.getElementById('result').value = camp_value
+           
+        }
 
     } else if (type === 'value' ){
         document.getElementById('result').value +=  value 
