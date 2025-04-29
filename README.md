@@ -3,6 +3,7 @@
 Este é um projeto simples de uma **calculadora web**, desenvolvida utilizando **HTML**, **CSS**, **JavaScript** e **Bootstrap** para fins educacionais.
 ## 📸 Exemplo
 ![Demonstração do projeto](demo-calc.gif)
+> Acesse online: [Clique aqui para ver o projeto rodando](https://luccachris.github.io/calculator/)
 ---
 
 ## ✨ Funcionalidades
